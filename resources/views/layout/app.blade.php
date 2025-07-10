@@ -65,8 +65,8 @@
         }
 
         .richeditor-content h3 {
-            font-size: 18px;
-        }
+            font-size: 18px;
+        }
     </style>
 
 </head>
@@ -83,12 +83,7 @@
         <x-partials.footer/>
     </div>
 
-    <script src="{{ asset('js/logo-slider.js') }}"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.0/dist/cdn.min.js" defer></script>
-
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
 
     <!-- jQuery -->
     <script src="/assets/js/jquery.js"></script>
