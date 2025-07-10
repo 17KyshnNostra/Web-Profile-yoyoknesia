@@ -39,7 +39,7 @@
             @endphp
 
             <li>
-              <a href="https://wa.me/6282255749407?text={{ $text }}"
+              <a href="https://wa.me/6281297706081?text={{ $text }}"
                 target="_blank" rel="noopener noreferrer"
                 class="hover:underline">
                 Whatsapp
@@ -62,7 +62,7 @@
       <div class="flex justify-center sm:justify-end mt-4 sm:mt-0 space-x-5">
         
         <!-- WhatsApp -->
-        <a href="https://wa.me/6282255749407?text=Halo%20admin%2C%20saya%20ingin%20bertanya%20mengenai%20layanan%20videografi%20yang%20tersedia.%20Mohon%20informasinya%20ya.%20Terima%20kasih."
+        <a href="https://wa.me/6281297706081?text=Halo%20admin%2C%20saya%20ingin%20bertanya%20mengenai%20layanan%20videografi%20yang%20tersedia.%20Mohon%20informasinya%20ya.%20Terima%20kasih."
           target="_blank" rel="noopener noreferrer"
           class="hover:text-gray-900 dark:hover:text-white">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">

@@ -69,7 +69,7 @@
             $text = rawurlencode("Halo admin, saya ingin bertanya mengenai layanan videografi yang tersedia di Yoyoknesia. Mohon informasinya ya. Terima kasih.");
           @endphp
           <li>
-            <a href="https://wa.me/6282255749407?text={{ $text }}"
+            <a href="https://wa.me/6281297706081?text={{ $text }}"
               target="_blank" rel="noopener noreferrer"
               class="block py-2 md:py-0 text-sm {{ navClass('contact') }}">
               Contact

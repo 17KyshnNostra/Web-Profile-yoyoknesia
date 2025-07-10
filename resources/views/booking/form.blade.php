@@ -148,7 +148,7 @@
             $whatsappText = rawurlencode(
                 "Halo admin, saya sudah melakukan booking jasa videografi.\n\nKode Booking: $code\nNama: $name\nTanggal Booking: $formattedDate\n\nTerima kasih.",
             );
-            $waNumber = '6282255749407'; // Ganti dengan nomor WhatsApp admin
+            $waNumber = '6281297706081'; // Ganti dengan nomor WhatsApp admin
         @endphp
 
         <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" id="modal-overlay">

@@ -10,7 +10,7 @@
                 Solusi terbaik untuk kebutuhan digital Anda
             </p>
             <div class="space-x-4">
-                <a href="https://wa.me/6282255749407" target="_blank" 
+                <a href="https://wa.me/6281297706081" target="_blank" 
                 class="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">
                 Contact Us
                 </a>
