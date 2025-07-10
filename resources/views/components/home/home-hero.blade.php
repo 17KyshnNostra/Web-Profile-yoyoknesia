@@ -22,7 +22,11 @@
         </div>
       </div>
       <div class="mt-8">
-        <a href="#kontak" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full font-semibold transition">
+        @php
+        $text = rawurlencode("Halo admin, saya ingin bertanya mengenai layanan videografi yang tersedia di Yoyoknesia. Mohon informasinya ya. Terima kasih.");
+        @endphp
+        <a href="https://wa.me/6281297706081?text={{ $text }}"
+                target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full font-semibold transition">
           Hubungi Kami
         </a>
       </div>
