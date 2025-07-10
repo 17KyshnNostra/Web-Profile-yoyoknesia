@@ -117,7 +117,7 @@
                 {{-- Deskripsi --}}
                 <div>
                     <label class="block text-gray-700 font-medium mb-1">Deskripsi Pesanan</label>
-                    <textarea name="deskripsi" rows="4"
+                    <textarea name="catatan" rows="4"
                         class="w-full border rounded-lg px-4 py-2 @error('deskripsi') border-red-500 @enderror"
                         placeholder="Ceritakan kebutuhan videografi Anda (acara, durasi, lokasi, dll)" required>{{ old('deskripsi') }}</textarea>
                     @error('deskripsi')
