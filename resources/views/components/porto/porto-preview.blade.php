@@ -3,8 +3,8 @@
 <div class="container mx-auto px-4 py-8">
     <!-- Header -->
     <div class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">Video Showcase</h1>
-        <p class="text-gray-600 text-lg">Experience our interactive video content</p>
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Showcase</h1>
+        <p class="text-gray-600 text-lg">Experience our content</p>
     </div>
 
     <!-- Video Grid Layout -->
