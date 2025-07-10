@@ -29,7 +29,11 @@
 
         <!-- Tombol -->
         <div class="mt-8">
-          <a href="#contact" class="inline-block px-6 py-2 border border-gray-800 rounded-full font-medium hover:bg-gray-800 hover:text-white transition">
+          @php
+          $text = rawurlencode("Halo admin, saya ingin bertanya mengenai layanan videografi yang tersedia di Yoyoknesia. Mohon informasinya ya. Terima kasih.");
+          @endphp
+          <a href="https://wa.me/6281297706081?text={{ $text }}"
+          target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-2 border border-gray-800 rounded-full font-medium hover:bg-gray-800 hover:text-white transition">
             Hire me
           </a>
         </div>
