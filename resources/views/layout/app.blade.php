@@ -87,6 +87,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.0/dist/cdn.min.js" defer></script>
 
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
     <!-- jQuery -->
     <script src="/assets/js/jquery.js"></script>
 
