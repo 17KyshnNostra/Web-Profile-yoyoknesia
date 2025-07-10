@@ -13,8 +13,8 @@ class LayananController extends Controller
      */
     public function index()
     {
-        $layanan = Layanan::all();
-        return view('home.service-dokumentasi', compact('layanans'));
+        $layanans = Layanan::all();
+        return view('dokumentasi', compact('layanans'));
     }
 
     /**
