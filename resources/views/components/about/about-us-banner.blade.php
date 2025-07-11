@@ -1,5 +1,5 @@
   <!-- Hero Section -->
-  <section class="relative h-screen bg-cover bg-center" style="background-image: url('{{ asset('img/background.jpg') }}');">
+  <section class="relative h-[300px] md:h-[500px] lg:h-[600px] bg-cover bg-center" style="background-image: url('{{ asset('img/background.jpg') }}');">
     <!-- Overlay hitam transparan -->
     <div class="absolute inset-0 bg-black bg-opacity-60"></div>
     
