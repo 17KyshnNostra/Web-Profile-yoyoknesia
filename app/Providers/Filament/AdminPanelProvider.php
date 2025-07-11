@@ -27,9 +27,15 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->brandName('Yoyoknesia')
+            ->brandLogo(asset('img/yoyonesia.png')) // pastikan logo disimpan di public/images/logo.png
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => '#1E40AF', // Navy Blue
+                'danger' => '#DC2626',  // Merah
+                'success' => '#16A34A', // Hijau
+                'gray' => '#64748B',    // Cool Gray
             ])
+            
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
@@ -37,8 +43,9 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([
+                \App\Filament\Widgets\BookingStats::class,
+                \App\Filament\Widgets\BookingChart::class,
                 Widgets\AccountWidget::class,
-                Widgets\FilamentInfoWidget::class,
             ])
             ->middleware([
                 EncryptCookies::class,
