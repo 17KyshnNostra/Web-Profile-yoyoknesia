@@ -28,12 +28,12 @@ class AdminPanelProvider extends PanelProvider
             ->path('admin')
             ->login()
             ->brandName('Yoyoknesia')
-            ->brandLogo(asset('img/yoyonesia.png')) // pastikan logo disimpan di public/images/logo.png
+            ->brandLogo(asset('img/yoyonesia.png'))
             ->colors([
-                'primary' => '#1E40AF', // Navy Blue
-                'danger' => '#DC2626',  // Merah
-                'success' => '#16A34A', // Hijau
-                'gray' => '#64748B',    // Cool Gray
+                'primary' => '#1E40AF', 
+                'danger' => '#DC2626',  
+                'success' => '#16A34A', 
+                'gray' => '#64748B',    
             ])
             
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
